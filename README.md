@@ -24,5 +24,25 @@ Gaming website developed and API creation using Laravel to accomplish the follow
 - `Task 1` - User can see the available catalog of games on the website; 
 - `Task 2` - User can buy multiple games;
 
-**Login** - Using your already existing Gmail account to sign in by pressing the '+' button.  
-![Login Interface](https://github.com/FabiomtGoncalves/ESTIGmail-React/blob/master/imgs/login.png)
+**Homepage**
+![Homepage Interface](https://github.com/FabiomtGoncalves/ESTIGaming-Laravel/blob/master/imgs/homepage.png)
+
+**Selected Game Info**
+![Game Info Interface](https://github.com/FabiomtGoncalves/ESTIGaming-Laravel/blob/master/imgs/clicked_game.png)
+
+**Search Game by Name**
+![Search by Name](https://github.com/FabiomtGoncalves/ESTIGaming-Laravel/blob/master/imgs/search_by_name.png)
+
+**Games on Sale**
+![Sale Interface](https://github.com/FabiomtGoncalves/ESTIGaming-Laravel/blob/master/imgs/sale.png)
+
+**Login/Register**
+![Login/Register Interface](https://github.com/FabiomtGoncalves/ESTIGaming-Laravel/blob/master/imgs/login_register.png)
+
+**Cart/Checkout**
+![Cart/Checkout Interface](https://github.com/FabiomtGoncalves/ESTIGaming-Laravel/blob/master/imgs/cart.png)
+
+**Account/Games Bought**
+![Account Interface](https://github.com/FabiomtGoncalves/ESTIGaming-Laravel/blob/master/imgs/games_bought.png)
+
+
