@@ -1,0 +1,450 @@
+body, html {
+    background-image: url('/img/bg.png');
+    height: 100%;
+    margin: 0;
+    background-position: center;
+    background-size: cover;
+}
+
+.card {
+    overflow: hidden;
+    transition: 0.3s;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+img:hover{
+    filter: brightness(130%);
+}
+
+.card:hover {
+}
+
+.game_image:hover{
+
+}
+
+.imgbox {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    height: 100%;
+}
+.center-fit {
+    padding: 0;
+    max-width: 100%;
+    max-height: 100vh;
+    margin: 0;
+}
+
+.logo{
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    text-align: center;
+    /* incluir padding se necessário*/
+}
+
+.inLine{
+    display: inline;
+}
+
+.price{
+    font-size: 25px;
+    text-align: right;
+}
+
+img{
+    width: 100%;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.align{
+    padding: 1%;
+    z-index: 2;
+    /*gap: 1%;*/
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #2f3640;
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: white;
+    color : black;
+}
+
+.delete_btn {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: darkred;
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.delete_btn:hover {
+    background: red;
+    color : black;
+}
+
+.column {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.box{
+    border-radius: 20px;
+    background-color: red;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+}
+
+.columnGame {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.title_price_cart{
+    border-radius: 20px;
+    background-color: white;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+}
+
+.lr_input {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.lr_btn {
+    width: 50%;
+    background-color: darkred;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.lr_btn:hover {
+    background-color: red;
+}
+
+.cart_btn{
+    width: 80%;
+    background-color: darkred;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cart_btn:hover {
+    background-color: red;
+}
+
+.testas{
+    background-color: black ;
+}
+
+.title{
+    color: darkred;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.cart_btn:disabled {
+    opacity: 0.3;
+}
+
+.cart_btn:disabled:hover {
+    background-color: darkred;
+    cursor: not-allowed;
+}
+
+iframe{
+    width: 80%;
+    height: 400px;
+}
+
+a:link { text-decoration: none; }
+a { color: inherit; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.grid-item {
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-title{
+    background: darkred;
+    color: white;
+}
+
+.parent{
+    text-align: center;
+}
+
+.child{
+    display: inline-block;
+    padding: 15px;
+}
+
+.searchBox {
+    width: 100%;
+    /*transform:  translate(-50%,50%);*/
+    background: #2f3640;
+    height: 30px;
+    border-radius: 40px;
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
+
+.searchBox:hover > .searchButton {
+    background: white;
+    color : black;
+}
+
+.searchButton {
+    color: white;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.searchInput {
+    border:none;
+    background: none;
+    outline:none;
+    color: white;
+    font-size: 16px;
+    /*transition: 0.4s;*/
+    line-height: 30px;
+    width: 100%;
+}
+
+.cart_container {
+    width: 90%;
+    height: 500px;
+    overflow: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cart_game_grid {
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+
+.cart_img_text_align{
+    display: inline-block;
+}
+
+.cart_game_img {
+    width: 50%;
+}
+
+.error{
+    color: red;
+}
+
+.success{
+    color: green;
+}
+
+.game_account_txt:hover{
+    color: darkred;
+}
+
+
+.filter{
+    background-color: white;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid #2f3640;
+    border-radius: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.font_awesome{
+    font-family: Arial, FontAwesome, serif;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.btn_filter {
+    color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    outline: none;
+    padding: 10px 16px;
+    background-color: darkgreen;
+    cursor: pointer;
+}
+
+.btn_filter:hover {
+    background-color: green;
+}
+
+.btn_sale {
+    color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    outline: none;
+    padding: 10px 16px;
+    background-color: darkred;
+    cursor: pointer;
+}
+
+.btn_sale:hover {
+    background-color: red;
+}
+
+.btn_logout{
+    color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #FF5F1F;
+    cursor: pointer;
+}
+
+.btn_logout:hover{
+    background-color: darkorange;
+}
+
+.username{
+    color: white;
+    background-color: darkred;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.sale_price{
+    text-decoration: line-through;
+}
+
+.imagewrap {
+    position:relative;
+}
+
+.sale_img {
+    position:absolute;
+    left:0;
+    top:0;
+    border-radius: 10px;
+    width: 20%;
+    height: 20%;
+    background: darkred;
+    color: white;
+    font-size: 120%;
+    z-index: 2;
+}
+
+.description{
+    border-radius: 20px;
+    background-color: white;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+}
+
+.aditional_info{
+    color: darkred;
+    font-size: 20px;
+}
+
+.ps{
+    color: blue;
+}
+
+.xbox{
+    color:green;
+}
+
+.columnAlign {
+    float: left;
+}
+
+

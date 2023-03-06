@@ -1,0 +1,50 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "APIs For Thrift Store",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/games": {
+            "get": {
+                "tags": [
+                    "All Games"
+                ],
+                "summary": "Devolve todos os jogos",
+                "description": "Catálogo de Jogos",
+                "operationId": "93736f40a135111a310e4b25ad61f30b",
+                "responses": {
+                    "200": {
+                        "description": "A list with courses"
+                    }
+                }
+            }
+        },
+        "/api/game/{id}": {
+            "get": {
+                "tags": [
+                    "Specific Game"
+                ],
+                "summary": "Devolve um jogo especifico",
+                "description": "Detalhes do jogo",
+                "operationId": "b08e8616b251fac30ba3b3d423f5f465",
+                "responses": {
+                    "200": {
+                        "description": "A list with courses"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "securitySchemes": {
+            "bearerAuth": {
+                "type": "http",
+                "name": "bearerAuth",
+                "in": "header",
+                "bearerFormat": "JWT",
+                "scheme": "bearer"
+            }
+        }
+    }
+}
