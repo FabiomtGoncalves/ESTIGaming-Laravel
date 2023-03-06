@@ -1,16 +1,24 @@
 # ESTIGaming
-### Fábio Gonçalves nº17646
-### Docente: Luís Carlos Bruno
-#### UC: Desenvolvimento de Aplicações Web (DAW)
+UC: Desenvolvimento de Aplicações Web (DAW)
 
----
+```
+IDE: PhpStorm
+Laravel
+XAMPP
+MySQL
+``` 
 
-1) Adicionar o nome da base de dados e o username ao ficheiro .env, que neste caso por default são:
+1) Add DB name and username to .env file, by default they are:
    * **DB_DATABASE** = estigaming
    * **DB_USERNAME** = root
    
-2) Executar as migrations para a criação das tabelas com o comando:
+2) Run migrations for the creation of the already defined tables:
     * php artisan migrate:fresh --seed
 
-3) Executar a seed para popular a tabela 'games' com alguns jogos já previamente criados:
+3) Run a seed command to populate table 'games' with games already created:
     *  php artisan db:seed --class=GamesSeeder
+
+Gaming website developed and API creation using Laravel to accomplish the following tasks:
+
+- `Task 1` - User can see the available catalog of games on the website; 
+- `Task 2` - User can buy multiple games;
