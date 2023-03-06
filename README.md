@@ -45,4 +45,4 @@ Gaming website developed and API creation using Laravel to accomplish the follow
 **Account/Games Bought**
 ![Account Interface](https://github.com/FabiomtGoncalves/ESTIGaming-Laravel/blob/master/imgs/games_bought.png)
 
-
+[More Details](https://github.com/FabiomtGoncalves/ESTIGaming-Laravel/blob/master/DAW_PI_17646.pdf)
