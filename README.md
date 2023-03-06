@@ -1,6 +1,7 @@
 # ESTIGaming
-UC: Desenvolvimento de Aplicações Web (DAW)
 
+UC: Desenvolvimento de Aplicações Web (DAW)  
+[Relatório](https://github.com/FabiomtGoncalves/ESTIGaming-Laravel/blob/master/DAW_PI_17646.pdf)
 ```
 IDE: PhpStorm
 Laravel
@@ -22,3 +23,6 @@ Gaming website developed and API creation using Laravel to accomplish the follow
 
 - `Task 1` - User can see the available catalog of games on the website; 
 - `Task 2` - User can buy multiple games;
+
+**Login** - Using your already existing Gmail account to sign in by pressing the '+' button.  
+![Login Interface](https://github.com/FabiomtGoncalves/ESTIGmail-React/blob/master/imgs/login.png)
